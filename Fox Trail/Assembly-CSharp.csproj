@@ -45,20 +45,21 @@
      <Compile Include="Assets\Scripts\EndlessRunnerTest\gameflow.cs" />
      <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\PlayerCollision.cs" />
      <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\EndlessTemple\CameraMotor.cs" />
      <Compile Include="Assets\Scripts\EndlessRunnerTest\animcon.cs" />
      <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\LevelComplete.cs" />
+     <Compile Include="Assets\Scripts\EndlessTemple\Joystick.cs" />
+     <Compile Include="Assets\Scripts\EndlessRunnerTest\GroundMove.cs" />
      <Compile Include="Assets\Scripts\PlayerGravityDown.cs" />
      <Compile Include="Assets\Scripts\EndlessRunnerTest\runningdood.cs" />
      <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\Score.cs" />
+     <Compile Include="Assets\Scripts\EndlessTemple\PlayerMotor.cs" />
      <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\EndlessRunnerTest\cartmove.cs" />
      <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\GameManager.cs" />
      <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\Credits.cs" />
      <Compile Include="Assets\Scripts\EndlessRunnerTest\cammove.cs" />
-     <Compile Include="Assets\Scripts\EndlessTemple\PlayerMotor.cs" />
-     <Compile Include="Assets\Scripts\EndlessTemple\CameraMotor.cs" />
-     <Compile Include="Assets\Scripts\EndlessTemple\Joystick.cs" />
-     <Compile Include="Assets\Scripts\EndlessRunnerTest\GroundMove.cs" />
+     <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\OldPlayerMovement1.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -648,31 +649,31 @@
         <HintPath>D:/Unityasennettu/2020.3.2f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>E:/GitHub/Fox Trail/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>E:/GitHub/FoxTrailGithub/Fox Trail/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>E:/GitHub/Fox Trail/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>E:/GitHub/FoxTrailGithub/Fox Trail/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>E:/GitHub/Fox Trail/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>E:/GitHub/FoxTrailGithub/Fox Trail/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>E:/GitHub/Fox Trail/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>E:/GitHub/FoxTrailGithub/Fox Trail/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>E:/GitHub/Fox Trail/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>E:/GitHub/FoxTrailGithub/Fox Trail/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>E:/GitHub/Fox Trail/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>E:/GitHub/FoxTrailGithub/Fox Trail/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>E:/GitHub/Fox Trail/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>E:/GitHub/FoxTrailGithub/Fox Trail/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>E:/GitHub/Fox Trail/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>E:/GitHub/FoxTrailGithub/Fox Trail/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>E:/GitHub/Fox Trail/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>E:/GitHub/FoxTrailGithub/Fox Trail/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
