@@ -44,6 +44,7 @@
      <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\Menu.cs" />
      <Compile Include="Assets\Scripts\EndlessRunnerTest\gameflow.cs" />
      <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\PlayerCollision.cs" />
+     <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\OldPlayerMovement1.cs" />
      <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\EndlessTemple\CameraMotor.cs" />
      <Compile Include="Assets\Scripts\EndlessRunnerTest\animcon.cs" />
@@ -59,7 +60,9 @@
      <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\GameManager.cs" />
      <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\Credits.cs" />
      <Compile Include="Assets\Scripts\EndlessRunnerTest\cammove.cs" />
-     <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\OldPlayerMovement1.cs" />
+     <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\DistanceScore.cs" />
+     <Compile Include="Assets\Scripts\CoinPickup.cs" />
+     <Compile Include="Assets\Scripts\FlameCollision.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

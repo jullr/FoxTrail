@@ -11,6 +11,7 @@ public class PlayerCollision : MonoBehaviour
         
         if (collisionInfo.collider.tag == "Obstacle"){
             movement.enabled = false; 
+            FlameCollision.scoreValue = 0;
             FindObjectOfType<GameManager>().EndGame();
         }
     }
