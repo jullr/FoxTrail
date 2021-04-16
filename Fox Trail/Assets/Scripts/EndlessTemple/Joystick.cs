@@ -12,8 +12,10 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, I
     public float moveSpeed;
     public float rotateSpeed;
 
+    //animaatio
     bool walking;
 
+    //sphere gravity
     public Transform planet; 
     float gravity = -9.81f;
 
@@ -24,6 +26,7 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, I
         moveForward = new Vector3(0,0,transform.localPosition.y).normalized;
         moveRotate = new Vector3(0, transform.localPosition.x,0).normalized;
 
+        //animaatiota 
         if(!walking){
             walking = true;
             player.GetComponent<Animator>().SetBool("Walk", true);
@@ -36,6 +39,7 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, I
         moveRotate = Vector3.zero;
         StopCoroutine("PlayerMove");
 
+        //animaatiota
          walking = false;
          player.GetComponent<Animator>().SetBool("Walk", false);
     }
@@ -52,6 +56,7 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, I
             player.Rotate(moveRotate * rotateSpeed * Time.deltaTime);
            }
 
+            //sphere gravity
            player.GetComponent<Rigidbody>().AddForce((player.position - planet.position).normalized * gravity);
            player.rotation = Quaternion.Slerp(player.rotation, Quaternion.FromToRotation(player.up,(player.position - planet.position).normalized) * player.rotation, rotateSpeed * Time.deltaTime);
 

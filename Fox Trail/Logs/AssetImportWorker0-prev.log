@@ -1,0 +1,462 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19042.867; Version 2009; 64bit' Language: 'fi' Physical Memory: 8124 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unityasennettu\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/GitHub/FoxTrailGithub/Fox Trail
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49795
+Successfully changed project path to: E:/GitHub/FoxTrailGithub/Fox Trail
+E:/GitHub/FoxTrailGithub/Fox Trail
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path D:/Unityasennettu/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/GitHub/FoxTrailGithub/Fox Trail/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'D:/Unityasennettu/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unityasennettu/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unityasennettu/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unityasennettu/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unityasennettu/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001652 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 32.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.129 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.984 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1153 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.7 MB.
+System memory in use after: 60.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1601.
+Total: 2.254300 ms (FindLiveObjects: 0.167900 ms CreateObjectMapping: 0.096100 ms MarkObjects: 1.912700 ms  DeleteObjects: 0.076100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/EndlessTemple/PlayerMotor.cs
+  artifactKey: Guid(e590fd4c4d630284ea30f0adbc089280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndlessTemple/PlayerMotor.cs using Guid(e590fd4c4d630284ea30f0adbc089280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c01597497fcb853a7619e0b0dcd6d8') in 0.116856 seconds
+  Import took 0.120415 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001583 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.001 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.4 MB.
+System memory in use after: 59.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1604.
+Total: 1.680800 ms (FindLiveObjects: 0.145600 ms CreateObjectMapping: 0.052700 ms MarkObjects: 1.464100 ms  DeleteObjects: 0.016800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000844 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.937 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.4 MB.
+System memory in use after: 59.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1607.
+Total: 1.660400 ms (FindLiveObjects: 0.129700 ms CreateObjectMapping: 0.047100 ms MarkObjects: 1.468200 ms  DeleteObjects: 0.013900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.370072 seconds.
+  path: Assets/Scripts/EndlessTemple/Joystick.cs
+  artifactKey: Guid(4fe3495acd7329a469e19716b127067b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndlessTemple/Joystick.cs using Guid(4fe3495acd7329a469e19716b127067b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425f34cb78acc36df6c91d201f193551') in 0.004024 seconds
+  Import took 0.006266 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000604 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.4 MB.
+System memory in use after: 59.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1610.
+Total: 1.888700 ms (FindLiveObjects: 0.235300 ms CreateObjectMapping: 0.050300 ms MarkObjects: 1.584500 ms  DeleteObjects: 0.017200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000597 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.4 MB.
+System memory in use after: 59.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1613.
+Total: 2.168000 ms (FindLiveObjects: 0.176200 ms CreateObjectMapping: 0.089400 ms MarkObjects: 1.884500 ms  DeleteObjects: 0.016500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1718.414326 seconds.
+  path: Assets/Scripts/EndlessTemple/[Unity Tutorial] First Person Controller Spherical Worlds
+  artifactKey: Guid(f67e079d8c1528942bbdf1b46c068a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndlessTemple/[Unity Tutorial] First Person Controller Spherical Worlds using Guid(f67e079d8c1528942bbdf1b46c068a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086a81b56903137dc99a28afc2846a58') in 0.004820 seconds
+  Import took 0.007305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.296617 seconds.
+  path: Assets/Scripts/EndlessTemple/[Unity Tutorial] First Person Controller Spherical Worlds/GravityAttractor.cs
+  artifactKey: Guid(92b1e930cdee02b41a49daa287d42a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndlessTemple/[Unity Tutorial] First Person Controller Spherical Worlds/GravityAttractor.cs using Guid(92b1e930cdee02b41a49daa287d42a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55356b4796c7b7916869240c895e34a1') in 0.001462 seconds
+  Import took 0.005546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001501 seconds.
+  path: Assets/Scripts/EndlessTemple/[Unity Tutorial] First Person Controller Spherical Worlds/GravityAttractor.cs
+  artifactKey: Guid(92b1e930cdee02b41a49daa287d42a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndlessTemple/[Unity Tutorial] First Person Controller Spherical Worlds/GravityAttractor.cs using Guid(92b1e930cdee02b41a49daa287d42a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55356b4796c7b7916869240c895e34a1') in 0.001736 seconds
+  Import took 0.004701 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.914 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1136 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.5 MB.
+System memory in use after: 59.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1617.
+Total: 1.868900 ms (FindLiveObjects: 0.146400 ms CreateObjectMapping: 0.046800 ms MarkObjects: 1.646900 ms  DeleteObjects: 0.027400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.986738 seconds.
+  path: Assets/Scripts/EndlessTemple/[Unity Tutorial] First Person Controller Spherical Worlds/GravityBody.cs
+  artifactKey: Guid(20d7f7c07ccb42147b186674c68744b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndlessTemple/[Unity Tutorial] First Person Controller Spherical Worlds/GravityBody.cs using Guid(20d7f7c07ccb42147b186674c68744b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa71f4a73974e93f295d768f03b0960') in 0.006733 seconds
+  Import took 0.009657 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1137 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.5 MB.
+System memory in use after: 59.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1621.
+Total: 2.184800 ms (FindLiveObjects: 0.202100 ms CreateObjectMapping: 0.092100 ms MarkObjects: 1.872800 ms  DeleteObjects: 0.015900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 378.860935 seconds.
+  path: Assets/Scripts/EndlessTemple/[Unity Tutorial] First Person Controller Spherical Worlds/GravityAttractor.cs
+  artifactKey: Guid(92b1e930cdee02b41a49daa287d42a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndlessTemple/[Unity Tutorial] First Person Controller Spherical Worlds/GravityAttractor.cs using Guid(92b1e930cdee02b41a49daa287d42a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61c1b2aa7d85914e44acc8023a25b53') in 0.007952 seconds
+  Import took 0.011321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.051639 seconds.
+  path: Assets/Scripts/EndlessTemple/PlayerMotor.cs
+  artifactKey: Guid(e590fd4c4d630284ea30f0adbc089280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndlessTemple/PlayerMotor.cs using Guid(e590fd4c4d630284ea30f0adbc089280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0ab5853af48dd8ca2cf683239c9bd8') in 0.002069 seconds
+  Import took 0.004560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036894 seconds.
+  path: Assets/Scripts/EndlessTemple/PlayerMotor.cs
+  artifactKey: Guid(e590fd4c4d630284ea30f0adbc089280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndlessTemple/PlayerMotor.cs using Guid(e590fd4c4d630284ea30f0adbc089280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0ab5853af48dd8ca2cf683239c9bd8') in 0.002108 seconds
+  Import took 0.004833 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000636 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1137 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.5 MB.
+System memory in use after: 59.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1624.
+Total: 1.880100 ms (FindLiveObjects: 0.146900 ms CreateObjectMapping: 0.046800 ms MarkObjects: 1.656300 ms  DeleteObjects: 0.028400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.625844 seconds.
+  path: Assets/Scripts/EndlessTemple/[Unity Tutorial] First Person Controller Spherical Worlds/GravityAttractor.cs
+  artifactKey: Guid(92b1e930cdee02b41a49daa287d42a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndlessTemple/[Unity Tutorial] First Person Controller Spherical Worlds/GravityAttractor.cs using Guid(92b1e930cdee02b41a49daa287d42a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc84911792ea0807fc2011a8bd3b9fcd') in 0.003686 seconds
+  Import took 0.006088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003298 seconds.
+  path: Assets/Scripts/EndlessTemple/[Unity Tutorial] First Person Controller Spherical Worlds/GravityAttractor.cs
+  artifactKey: Guid(92b1e930cdee02b41a49daa287d42a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndlessTemple/[Unity Tutorial] First Person Controller Spherical Worlds/GravityAttractor.cs using Guid(92b1e930cdee02b41a49daa287d42a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc84911792ea0807fc2011a8bd3b9fcd') in 0.001577 seconds
+  Import took 0.003895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 276.350489 seconds.
+  path: Assets/Scripts/EndlessTemple/[Unity Tutorial] First Person Controller Spherical Worlds/GravityBody.cs
+  artifactKey: Guid(20d7f7c07ccb42147b186674c68744b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndlessTemple/[Unity Tutorial] First Person Controller Spherical Worlds/GravityBody.cs using Guid(20d7f7c07ccb42147b186674c68744b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66271e144451c1cc0890445197027454') in 0.002321 seconds
+  Import took 0.008257 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000872 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.990 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1137 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.5 MB.
+System memory in use after: 59.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1627.
+Total: 2.193300 ms (FindLiveObjects: 0.154300 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.971200 ms  DeleteObjects: 0.020700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.615434 seconds.
+  path: Assets/Scripts/EndlessTemple/[Unity Tutorial] First Person Controller Spherical Worlds/FirstPersonController.cs
+  artifactKey: Guid(dbc6433cc20c82241874ece4304e1612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndlessTemple/[Unity Tutorial] First Person Controller Spherical Worlds/FirstPersonController.cs using Guid(dbc6433cc20c82241874ece4304e1612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1b4d26bce3220cbdc2245ba05efacf') in 0.005494 seconds
+  Import took 0.007893 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000563 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.279 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1138 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.5 MB.
+System memory in use after: 59.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1631.
+Total: 2.368000 ms (FindLiveObjects: 0.150100 ms CreateObjectMapping: 0.049200 ms MarkObjects: 2.144800 ms  DeleteObjects: 0.021700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000597 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1138 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.5 MB.
+System memory in use after: 59.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1634.
+Total: 1.747100 ms (FindLiveObjects: 0.130900 ms CreateObjectMapping: 0.047900 ms MarkObjects: 1.551800 ms  DeleteObjects: 0.014900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 229.393933 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54f480b7c9c85f0ee573fef3d952c71') in 0.021656 seconds
+  Import took 0.024855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007012 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54f480b7c9c85f0ee573fef3d952c71') in 0.001759 seconds
+  Import took 0.004043 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000585 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.965 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1138 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.5 MB.
+System memory in use after: 59.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1637.
+Total: 2.034800 ms (FindLiveObjects: 0.164500 ms CreateObjectMapping: 0.080700 ms MarkObjects: 1.772600 ms  DeleteObjects: 0.016000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
