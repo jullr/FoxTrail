@@ -36,35 +36,17 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\EndlessRunnerTest\destroyobject.cs" />
-     <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\EndTrigger.cs" />
-     <Compile Include="Assets\Scripts\MoveCharacter.cs" />
+     <Compile Include="Assets\Scripts\EndTrigger.cs" />
      <Compile Include="Assets\Scripts\FlameCollision.cs" />
      <Compile Include="Assets\Scripts\CoinPickup.cs" />
-     <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\Menu.cs" />
-     <Compile Include="Assets\Scripts\EndlessRunnerTest\gameflow.cs" />
-     <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\PlayerCollision.cs" />
-     <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\OldPlayerMovement1.cs" />
-     <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\DistanceScore.cs" />
-     <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\EndlessTemple\CameraMotor.cs" />
-     <Compile Include="Assets\Scripts\EndlessRunnerTest\animcon.cs" />
-     <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\LevelComplete.cs" />
-     <Compile Include="Assets\Scripts\EndlessTemple\Joystick.cs" />
-     <Compile Include="Assets\Scripts\EndlessRunnerTest\GroundMove.cs" />
-     <Compile Include="Assets\Scripts\PlayerGravityDown.cs" />
-     <Compile Include="Assets\Scripts\EndlessTemple\PlanetPosition.cs" />
-     <Compile Include="Assets\Scripts\EndlessRunnerTest\runningdood.cs" />
-     <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\Score.cs" />
-     <Compile Include="Assets\Scripts\EndlessTemple\PlayerMotor.cs" />
-     <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\FollowPlayer.cs" />
-     <Compile Include="Assets\Scripts\EndlessRunnerTest\cartmove.cs" />
-     <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\GameManager.cs" />
-     <Compile Include="Assets\Scripts\HowtoCreate a VideoGame\Credits.cs" />
-     <Compile Include="Assets\Scripts\EndlessRunnerTest\cammove.cs" />
-     <Compile Include="Assets\Scripts\EndlessTemple\[Unity Tutorial] First Person Controller Spherical Worlds\GravityAttractor.cs" />
-     <Compile Include="Assets\Scripts\EndlessTemple\[Unity Tutorial] First Person Controller Spherical Worlds\GravityBody.cs" />
-     <Compile Include="Assets\Scripts\EndlessTemple\[Unity Tutorial] First Person Controller Spherical Worlds\FirstPersonController.cs" />
+     <Compile Include="Assets\Scripts\[Unity Tutorial] First Person Controller Spherical Worlds\GravityBody.cs" />
+     <Compile Include="Assets\Scripts\[Unity Tutorial] First Person Controller Spherical Worlds\FirstPersonController.cs" />
+     <Compile Include="Assets\Scripts\LevelComplete.cs" />
+     <Compile Include="Assets\Scripts\[Unity Tutorial] First Person Controller Spherical Worlds\GravityAttractor.cs" />
+     <Compile Include="Assets\Scripts\PlanetPosition.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Menu.cs" />
+     <Compile Include="Assets\Scripts\Credits.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -84,7 +66,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-     <None Include="Assets\Scripts\EndlessTemple\[Unity Tutorial] First Person Controller Spherical Worlds\License.txt" />
+     <None Include="Assets\Scripts\[Unity Tutorial] First Person Controller Spherical Worlds\License.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
