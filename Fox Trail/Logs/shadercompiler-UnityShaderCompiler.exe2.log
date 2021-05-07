@@ -2,5 +2,3 @@ Base path: 'D:/Unityasennettu/2020.3.2f1/Editor/Data', plugins path 'D:/Unityase
 Cmd: initializeCompiler
 
 Cmd: shutdown
-
-Quitting shader compiler process
