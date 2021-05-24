@@ -18,6 +18,9 @@ public class FirstPersonController : MonoBehaviour {
 	float verticalLookRotation;
 	Transform cameraTransform;
 	Rigidbody rb;
+
+	//For animations
+	private Animator animator;
 	
 	
 	void Awake() {
@@ -25,6 +28,7 @@ public class FirstPersonController : MonoBehaviour {
 		Cursor.visible = false;
 		cameraTransform = Camera.main.transform;
 		rb = GetComponent<Rigidbody> ();
+		animator = GetComponent<Animator>();
 	}
 	
 	void Update() {
@@ -48,6 +52,8 @@ public class FirstPersonController : MonoBehaviour {
 		if (Input.GetButtonDown("Jump")) {
 			if (grounded) {
 				rb.AddForce(transform.up * jumpForce);
+				animator.Play("FoxJump");
+				
 			}
 		}
 		//.......................................................................................
