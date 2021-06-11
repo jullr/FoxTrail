@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 418aa1db8b54aad4b973d4ce47d063f2
   - enabled: 1
-    path: Assets/Scenes/FoxTrailPlaceholders.unity
-    guid: 38355aaf7dc7b9947bf326757e72ff28
+    path: Assets/Scenes/Level1.unity
+    guid: 78115425ff1c5b94f995c5c80359a565
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 275e4d3a7c3536046a7add1a48d585f7

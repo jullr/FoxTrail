@@ -5,21 +5,30 @@ using TMPro;
 
 public class CoinPickup : MonoBehaviour
 {
+    public AudioClip collectableAudio;
+    AudioSource audioData;
 //     public TMP_Text scoreText;
 //     private int score;
     
 // // Start is called before the first frame update
-//     void Start()
-//     {
+ void Start()
+ {
+     audioData = GetComponent<AudioSource>();
+
 //         scoreText.text = "Score : ";
-//     }
+}
 
     void OnTriggerEnter (Collider collisionInfo){
-        if (collisionInfo.tag == "Player"){
+        if (collisionInfo.tag == "Flame"){
+            //soita keräys ääni
+            audioData.clip = collectableAudio;
+            audioData.Play();
+            Debug.Log("collected");
+
             FlameCollision.scoreValue += 10;
             //coin collection here
             // score = score + 1;
-            Destroy(gameObject);
+            Destroy(collisionInfo.gameObject);
         }
     }
 //     // Update is called once per frame
