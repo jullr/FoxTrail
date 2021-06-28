@@ -10,6 +10,7 @@ public class FirstPersonController : MonoBehaviour {
 	public float walkSpeed = 6;
 	public float jumpForce = 220;
 	public LayerMask groundedMask;
+	public float forwardSpeed = 10f;
 
 	// System vars
 	bool grounded;
@@ -29,7 +30,9 @@ public class FirstPersonController : MonoBehaviour {
 		cameraTransform = Camera.main.transform;
 		rb = GetComponent<Rigidbody> ();
 		animator = GetComponent<Animator>();
+		
 	}
+
 	
 	void Update() {
 		
@@ -39,6 +42,11 @@ public class FirstPersonController : MonoBehaviour {
 		// verticalLookRotation = Mathf.Clamp(verticalLookRotation,-60,60);
 		// cameraTransform.localEulerAngles = Vector3.left * verticalLookRotation;
 		
+
+		//automatic forward movement
+		//Move the Rigidbody forwards constantly at speed you define (the blue arrow axis in Scene view)
+            rb.velocity = transform.forward * forwardSpeed;
+
 		// Calculate movement:
 		float inputX = Input.GetAxisRaw("Horizontal");
 		float inputY = Input.GetAxisRaw("Vertical");
@@ -74,5 +82,7 @@ public class FirstPersonController : MonoBehaviour {
 		// Apply movement to rigidbody
 		Vector3 localMove = transform.TransformDirection(moveAmount) * Time.fixedDeltaTime;
 		rb.MovePosition(rb.position + localMove);
+	
+
 	}
 }
