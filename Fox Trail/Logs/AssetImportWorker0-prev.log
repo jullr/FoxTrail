@@ -15,11 +15,11 @@ E:/GitHub/FoxTrailGithub/Fox Trail
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64781
+56168
 Successfully changed project path to: E:/GitHub/FoxTrailGithub/Fox Trail
 E:/GitHub/FoxTrailGithub/Fox Trail
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 70.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 68.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path D:/Unityasennettu/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -36,1717 +36,293 @@ Initialize mono
 Mono path[0] = 'D:/Unityasennettu/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unityasennettu/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unityasennettu/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unityasennettu/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unityasennettu/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002725 seconds.
+Registered in 0.002644 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 72.92 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 73.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.127 seconds
+- Completed reload, in  2.304 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001907 seconds.
+Registered in 0.001812 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 63.49 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 69.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.343 seconds
+- Completed reload, in  1.390 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2542 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 127.9 MB.
 System memory in use after: 128.1 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2992.
-Total: 2.567700 ms (FindLiveObjects: 0.269200 ms CreateObjectMapping: 0.120900 ms MarkObjects: 2.062600 ms  DeleteObjects: 0.113200 ms)
+Total: 2.465300 ms (FindLiveObjects: 0.262600 ms CreateObjectMapping: 0.115900 ms MarkObjects: 1.974600 ms  DeleteObjects: 0.110700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Assets/TreeStump
-  artifactKey: Guid(ed25d270af153c7498126e3a2b041b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/TreeStump using Guid(ed25d270af153c7498126e3a2b041b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be52e3c1fdaadcb9cc6d3a3c20fec969') in 0.023208 seconds
-  Import took 0.029363 seconds .
+  path: Assets/Scenes/Level1 1.unity
+  artifactKey: Guid(a7cd6c7a8ed15ac45b6ebeec3eced014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1 1.unity using Guid(a7cd6c7a8ed15ac45b6ebeec3eced014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89411177b60a5f67a934a99c0a70b51') in 0.035250 seconds
+  Import took 0.044076 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.389929 seconds.
-  path: Assets/Assets/DarkCreature1
-  artifactKey: Guid(8feaeb464532e9d4cb285aafda109cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/DarkCreature1 using Guid(8feaeb464532e9d4cb285aafda109cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2959e6d9a499b87233e6de98b628c37') in 0.005186 seconds
-  Import took 0.010786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.485494 seconds.
-  path: Assets/Assets/DarkCreature1/Creature Base Color.png
-  artifactKey: Guid(f2bc29ed746438241afcd3e75fc5a448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/DarkCreature1/Creature Base Color.png using Guid(f2bc29ed746438241afcd3e75fc5a448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6311fb9b934d0439be0b62df6d70337b') in 0.207279 seconds
-  Import took 0.213347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000804 seconds.
-  path: Assets/Assets/DarkCreature1/Creaturel Bump.png
-  artifactKey: Guid(a8c9052ebaab82e4ab4034f8340e9840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/DarkCreature1/Creaturel Bump.png using Guid(a8c9052ebaab82e4ab4034f8340e9840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739a848dfde30adca4bcaaf70bd0c870') in 0.013747 seconds
-  Import took 0.018866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000674 seconds.
-  path: Assets/Assets/DarkCreature1/Flower Base Color.png
-  artifactKey: Guid(1ea562379c692c849bd776cf6ca20014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/DarkCreature1/Flower Base Color.png using Guid(1ea562379c692c849bd776cf6ca20014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd0dceaebadcd729d5c59800f526807') in 0.012778 seconds
-  Import took 0.018321 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/Assets/DarkCreature1/Creature Roughness.png
-  artifactKey: Guid(596430944b20a984a954eae113013d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/DarkCreature1/Creature Roughness.png using Guid(596430944b20a984a954eae113013d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc076c4e01c6e0779199d6192580618a') in 0.012202 seconds
-  Import took 0.018897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000588 seconds.
-  path: Assets/Assets/DarkCreature1/Flower Bump.png
-  artifactKey: Guid(d989fb542c910684d82f0692670e3008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/DarkCreature1/Flower Bump.png using Guid(d989fb542c910684d82f0692670e3008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21913c2de7abf55a589345ca2b534f3') in 0.012235 seconds
-  Import took 0.018658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001192 seconds.
-  path: Assets/Assets/DarkCreature1/DarkCreature.fbx
-  artifactKey: Guid(f307a4ed50190274689784c9e4aca53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/DarkCreature1/DarkCreature.fbx using Guid(f307a4ed50190274689784c9e4aca53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c4d85733d037409b92ac613eb4a743') in 0.707917 seconds
-  Import took 0.714885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.635650 seconds.
-  path: Assets/Assets/TreeStump/TreeStump Base Color.png
-  artifactKey: Guid(362bc9efdfd417d418ded27bd66f29d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/TreeStump/TreeStump Base Color.png using Guid(362bc9efdfd417d418ded27bd66f29d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2565b007bc0d3aa5cfb9144511ab81c7') in 0.014841 seconds
-  Import took 0.020465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/Assets/TreeStump/TreeStump.fbx
-  artifactKey: Guid(58df87e1edb437a459a6dabb1f694935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/TreeStump/TreeStump.fbx using Guid(58df87e1edb437a459a6dabb1f694935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7bcc8bed951647dc4d89cb2a0dc4a9') in 0.053055 seconds
-  Import took 0.058446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.622672 seconds.
-  path: Assets/Assets/TreeStump/TreeStump.fbx
-  artifactKey: Guid(58df87e1edb437a459a6dabb1f694935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/TreeStump/TreeStump.fbx using Guid(58df87e1edb437a459a6dabb1f694935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42eb79a7c66e3b5fa22ff10bccc31459') in 0.018760 seconds
-  Import took 0.024662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000508 seconds.
-  path: Assets/Assets/TreeStump/TreeStump.mat
-  artifactKey: Guid(f59267b22413b8d43aee512308376858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/TreeStump/TreeStump.mat using Guid(f59267b22413b8d43aee512308376858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0c0acccbaa39c040ad97a759868cbb') in 0.023785 seconds
-  Import took 0.029174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 79.386799 seconds.
-  path: Assets/Assets/DarkCreature1/DarkCreature.fbx
-  artifactKey: Guid(f307a4ed50190274689784c9e4aca53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/DarkCreature1/DarkCreature.fbx using Guid(f307a4ed50190274689784c9e4aca53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ee797ce4a351ac83d6fcb6208c5ef8') in 0.045882 seconds
-  Import took 0.051386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000650 seconds.
-  path: Assets/Assets/DarkCreature1/Material.001.mat
-  artifactKey: Guid(3ad417c6080ac1b41bb62cf9502ddd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/DarkCreature1/Material.001.mat using Guid(3ad417c6080ac1b41bb62cf9502ddd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13c6ee663471ce09066556472f8597e') in 0.014776 seconds
-  Import took 0.021043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/Assets/DarkCreature1/Material.mat
-  artifactKey: Guid(9ec763fbe37057b429b3b0e8aad9c9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/DarkCreature1/Material.mat using Guid(9ec763fbe37057b429b3b0e8aad9c9b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb06fb06ac01335b039782100f7daf10') in 0.015622 seconds
-  Import took 0.020949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 187.263210 seconds.
-  path: Assets/Assets/DarkCreature1/DarkCreature.controller
-  artifactKey: Guid(ea9fc2d47da59ca4a90591982b173a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/DarkCreature1/DarkCreature.controller using Guid(ea9fc2d47da59ca4a90591982b173a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5f4175b30837eb3a7d85e55d6f0686') in 0.019449 seconds
-  Import took 0.026345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 107.437903 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(5b6d7dd6a82c3d647b67e7068ccc0fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(5b6d7dd6a82c3d647b67e7068ccc0fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'FoxAnimated': Transition 'FoxRun -> FoxJump' in state 'FoxRun' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
-Asset 'FoxAnimated': Transition 'AnyState -> FoxJump' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
-
- -> (artifact id: '0d72d969a71cd3c6549690109986d5fb') in 0.215380 seconds
-  Import took 0.223216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.042107 seconds.
-  path: Assets/Prefabs/DarkCreature.prefab
-  artifactKey: Guid(0a6f7eb9234ffec4093c2b97da1544fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DarkCreature.prefab using Guid(0a6f7eb9234ffec4093c2b97da1544fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '09b0e6489bc15fac0af34f7ee72833eb') in 0.018812 seconds
-  Import took 0.024827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.917835 seconds.
-  path: Assets/Prefabs/TreeStump.prefab
-  artifactKey: Guid(2a64e0431be8cf441b93f61676dd81d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeStump.prefab using Guid(2a64e0431be8cf441b93f61676dd81d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a87937afdac07985777d7be45f281a') in 0.015433 seconds
-  Import took 0.021357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.800769 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'e2440b9a29fc82f21ce02dac5467b202') in 0.024764 seconds
-  Import took 0.030463 seconds .
+  Time since last request: 6.802026 seconds.
+  path: Assets/Scenes/Level1Backup.unity
+  artifactKey: Guid(a7cd6c7a8ed15ac45b6ebeec3eced014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1Backup.unity using Guid(a7cd6c7a8ed15ac45b6ebeec3eced014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2676a69ed8d76c0adfad633a9a209c9e') in 0.006287 seconds
+  Import took 0.013844 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001870 seconds.
+Registered in 0.001889 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.150 seconds
+- Completed reload, in  1.278 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2399 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.0 MB.
-System memory in use after: 137.3 MB.
+System memory in use before: 117.7 MB.
+System memory in use after: 117.9 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3078.
-Total: 2.377400 ms (FindLiveObjects: 0.253500 ms CreateObjectMapping: 0.110900 ms MarkObjects: 1.994800 ms  DeleteObjects: 0.016800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.374286 seconds.
-  path: Assets/Assets/DarkCreature1/Armature_Idle.anim
-  artifactKey: Guid(8296e5bd0d9b30244b838f586129211b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/DarkCreature1/Armature_Idle.anim using Guid(8296e5bd0d9b30244b838f586129211b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f751a0381a90bea021593e40aa70ed') in 0.035708 seconds
-  Import took 0.041109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.045323 seconds.
-  path: Assets/Assets/DarkCreature1/Idle.anim
-  artifactKey: Guid(8296e5bd0d9b30244b838f586129211b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/DarkCreature1/Idle.anim using Guid(8296e5bd0d9b30244b838f586129211b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8740cb4a12850b24148010b4719ffe43') in 0.004618 seconds
-  Import took 0.010097 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2995.
+Total: 2.454800 ms (FindLiveObjects: 0.290700 ms CreateObjectMapping: 0.135400 ms MarkObjects: 2.006000 ms  DeleteObjects: 0.020700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001750 seconds.
+Registered in 0.001761 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.124 seconds
+- Completed reload, in  1.286 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2399 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.1 MB.
-System memory in use after: 137.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3081.
-Total: 2.676600 ms (FindLiveObjects: 0.281500 ms CreateObjectMapping: 0.111800 ms MarkObjects: 2.263300 ms  DeleteObjects: 0.018200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 160.145138 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'dbd4d50094eb6eba00e1ecc958038964') in 0.214915 seconds
-  Import took 0.221542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.975386 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'e90d97094cdcd6ce099843e5580722ce') in 0.020802 seconds
-  Import took 0.026589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.806280 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'e352da58160c7026b31bdbda8a1971bc') in 0.021626 seconds
-  Import took 0.027031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.814042 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '67dcdbe4f46097afd767e1e96d865b16') in 0.021710 seconds
-  Import took 0.027852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.567140 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'c1ab296a9dfe3dfd2b4caa47206136f1') in 0.026144 seconds
-  Import took 0.031494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.218501 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '507940c98ef6d57e0b25d1329629ba1c') in 0.026032 seconds
-  Import took 0.032085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.829053 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '888dc4d1347a86ca113267eec9c4b964') in 0.028108 seconds
-  Import took 0.033779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.754683 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'd144d03f9e433b354af27de343af4fe5') in 0.048190 seconds
-  Import took 0.054858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.180688 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'd2d1b3e862e90135de1460817935162b') in 0.020702 seconds
-  Import took 0.026304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.628155 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '44759c8e45308f4ae9dce03519fda759') in 0.020504 seconds
-  Import took 0.026270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.821419 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'ba1cc8e2364e7b2d3b0d22f0375fccd3') in 0.023999 seconds
-  Import took 0.029605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.235341 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '8f206e13168a42aefd11e909ab543281') in 0.021052 seconds
-  Import took 0.026208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.621975 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '55fea8f7058dfaa39b08a5cc7c6d3c9a') in 0.021624 seconds
-  Import took 0.027001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.277418 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'e9796e1f77097d908ea4643ff954fb7f') in 0.022484 seconds
-  Import took 0.028234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.594976 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'bb3a7df621204f80e0d8f433706607ea') in 0.021911 seconds
-  Import took 0.028390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.027348 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '6e781dc3558364dba9fe19f5e3ae7aab') in 0.022127 seconds
-  Import took 0.028176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.206473 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '915b0c00bfd6b893c8be228904b077bd') in 0.039570 seconds
-  Import took 0.045206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.971378 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '68c0a2570fb78666f455c83a5193b0a9') in 0.021968 seconds
-  Import took 0.026883 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.394636 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'bf30ffcf52f0a5bbf7e056f0ab8344f7') in 0.022791 seconds
-  Import took 0.027960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.806521 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'b135206f69034bbcd9237051c964a7da') in 0.021416 seconds
-  Import took 0.027051 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.061185 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '1b65671bd203609181e32972c56cfd67') in 0.022874 seconds
-  Import took 0.028578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.897782 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'd20314966a67332591ce3368a5399095') in 0.022495 seconds
-  Import took 0.027479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.955663 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '7e2f765210a92f2ae5561638bb2ac998') in 0.024872 seconds
-  Import took 0.030546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.619686 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'd5afb66759d100c72505fb914f96caa0') in 0.023068 seconds
-  Import took 0.029225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.424749 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'a24981ec1b06f8c34f3e7ec50afc70a7') in 0.022350 seconds
-  Import took 0.028193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.999311 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'bd87b6c9a0733ee363e83dfb19c3f157') in 0.024586 seconds
-  Import took 0.029669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.081643 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'd7b5a6a290b5ef2c1c8ffdadcdc90adc') in 0.023350 seconds
-  Import took 0.028481 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.586986 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'e926ee398347154accda7794528b5156') in 0.022874 seconds
-  Import took 0.028456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.984492 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '5ecf86ac83ca367107e94ba626cfbbbd') in 0.023083 seconds
-  Import took 0.028704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.173321 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '864201bcdb6bb76d4e83ef3793e25f16') in 0.021382 seconds
-  Import took 0.026465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.780136 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '1ca144b7deb77fc7c17556e7f6d5aaf5') in 0.024695 seconds
-  Import took 0.029995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.516360 seconds.
-  path: Assets/Prefabs/TreeStump.prefab
-  artifactKey: Guid(2a64e0431be8cf441b93f61676dd81d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeStump.prefab using Guid(2a64e0431be8cf441b93f61676dd81d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965744462c82d817d82feddb86fb01f2') in 0.015754 seconds
-  Import took 0.021556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.667465 seconds.
-  path: Assets/Prefabs/TreeStump.prefab
-  artifactKey: Guid(2a64e0431be8cf441b93f61676dd81d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeStump.prefab using Guid(2a64e0431be8cf441b93f61676dd81d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3507d42ea999e27bc68863d688fbc467') in 0.014168 seconds
-  Import took 0.019767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.510747 seconds.
-  path: Assets/Prefabs/TreeStump.prefab
-  artifactKey: Guid(2a64e0431be8cf441b93f61676dd81d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeStump.prefab using Guid(2a64e0431be8cf441b93f61676dd81d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b07a9d7bf93afaf94b23bc55abab80') in 0.014373 seconds
-  Import took 0.021086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001468 seconds.
-  path: Assets/Prefabs/TreeStump.prefab
-  artifactKey: Guid(2a64e0431be8cf441b93f61676dd81d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeStump.prefab using Guid(2a64e0431be8cf441b93f61676dd81d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b07a9d7bf93afaf94b23bc55abab80') in 0.014495 seconds
-  Import took 0.019647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.374281 seconds.
-  path: Assets/Prefabs/DarkCreature.prefab
-  artifactKey: Guid(0a6f7eb9234ffec4093c2b97da1544fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/DarkCreature.prefab using Guid(0a6f7eb9234ffec4093c2b97da1544fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '99f7504d40860b7b0997e58ec0808fd1') in 0.019742 seconds
-  Import took 0.026457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000516 seconds.
-  path: Assets/Prefabs/TreeCreature.prefab
-  artifactKey: Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TreeCreature.prefab using Guid(0dafa2ca459bff143a2e23a2f6ce392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (DarkCreature) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'aed7ab79da3531136f60240814b5e807') in 0.023319 seconds
-  Import took 0.028852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.019130 seconds.
-  path: Assets/Prefabs/GameManagement/FlameEmpty.prefab
-  artifactKey: Guid(499cbeb511934904bbcbdb0d403726a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/GameManagement/FlameEmpty.prefab using Guid(499cbeb511934904bbcbdb0d403726a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f5d1d5c25b9bbd44f0a1dd2fe0dfcf') in 0.018336 seconds
-  Import took 0.023689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000480 seconds.
-  path: Assets/Prefabs/GameManagement/Player.prefab
-  artifactKey: Guid(591c627ecdaf55748aa5f29fdcca17bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/GameManagement/Player.prefab using Guid(591c627ecdaf55748aa5f29fdcca17bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfbe88e10653fd56fd7faff48fb3083') in 0.016802 seconds
-  Import took 0.021779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.233232 seconds.
-  path: Assets/Assets/FlameBottle/FlameBlue.mat
-  artifactKey: Guid(a72a2c00e2ea831449d7594d38ac790e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FlameBottle/FlameBlue.mat using Guid(a72a2c00e2ea831449d7594d38ac790e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a54e85becdf50f127afe57b0f93dae') in 0.063494 seconds
-  Import took 0.069505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000665 seconds.
-  path: Assets/Assets/FlameBottle/FlamePurple.mat
-  artifactKey: Guid(4948c7126ff75da4293d8880139917b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FlameBottle/FlamePurple.mat using Guid(4948c7126ff75da4293d8880139917b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de13d6133657d019507c311471ac30e0') in 0.016540 seconds
-  Import took 0.021537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000526 seconds.
-  path: Assets/Assets/FlameBottle/FlameOrange.mat
-  artifactKey: Guid(1d905aedd6dcdb04cb7bd4fd17ca63ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FlameBottle/FlameOrange.mat using Guid(1d905aedd6dcdb04cb7bd4fd17ca63ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e58a5af53f0e4d7160e12d384bfe41e') in 0.015434 seconds
-  Import took 0.021311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000543 seconds.
-  path: Assets/Assets/FlameBottle/FlameYellow.mat
-  artifactKey: Guid(a9ae92d4e8b1fc64ea06550170c482cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FlameBottle/FlameYellow.mat using Guid(a9ae92d4e8b1fc64ea06550170c482cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abd72bb0603f467e5842cc18706e99c') in 0.016737 seconds
-  Import took 0.021726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000714 seconds.
-  path: Assets/Assets/FlameBottle/FlameGreen.mat
-  artifactKey: Guid(24bb41376c4969a4ca9a6c3b6c449815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/FlameBottle/FlameGreen.mat using Guid(24bb41376c4969a4ca9a6c3b6c449815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf5581f3a329ecd6e2913ef6298d673') in 0.016260 seconds
-  Import took 0.021645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.035330 seconds.
-  path: Assets/Assets/Collectable
-  artifactKey: Guid(397effa121385d64fad5e08e7ede2dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Collectable using Guid(397effa121385d64fad5e08e7ede2dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14464b2769cc930ece946836c8e5192a') in 0.003926 seconds
-  Import took 0.009883 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.511267 seconds.
-  path: Assets/Prefabs/Collectable.prefab
-  artifactKey: Guid(b8fd27dfbf4cdd34689d3af633b47587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Collectable.prefab using Guid(b8fd27dfbf4cdd34689d3af633b47587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fad4ce588250cbb68d273d4695edcc') in 0.016505 seconds
-  Import took 0.022266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.234007 seconds.
-  path: Assets/Prefabs/CollectablePurple.prefab
-  artifactKey: Guid(b8fd27dfbf4cdd34689d3af633b47587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CollectablePurple.prefab using Guid(b8fd27dfbf4cdd34689d3af633b47587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5914213c48b6f7076a25b953d53236fd') in 0.034841 seconds
-  Import took 0.040082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.687523 seconds.
-  path: Assets/Prefabs/CollectablePurple 1.prefab
-  artifactKey: Guid(826d22f8c6598f342986a02494a6bddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CollectablePurple 1.prefab using Guid(826d22f8c6598f342986a02494a6bddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c3856994737fd28be6466672674a9b') in 0.016409 seconds
-  Import took 0.021636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.457581 seconds.
-  path: Assets/Prefabs/CollectablePurple 2.prefab
-  artifactKey: Guid(3e3f1363d215b2b4e8ab7ad07fd7db65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CollectablePurple 2.prefab using Guid(3e3f1363d215b2b4e8ab7ad07fd7db65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96de29395c3be0eddd929855a32c7257') in 0.016242 seconds
-  Import took 0.021789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.519996 seconds.
-  path: Assets/Prefabs/CollectablePurple 3.prefab
-  artifactKey: Guid(988f89e167e502a44b34e64ced9f2d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CollectablePurple 3.prefab using Guid(988f89e167e502a44b34e64ced9f2d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b159697aab52a76055f34ab235f363') in 0.017328 seconds
-  Import took 0.022383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.763870 seconds.
-  path: Assets/Prefabs/CollectableGreen.prefab
-  artifactKey: Guid(988f89e167e502a44b34e64ced9f2d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CollectableGreen.prefab using Guid(988f89e167e502a44b34e64ced9f2d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ff3a89949e9014658dc767bb841e31') in 0.043471 seconds
-  Import took 0.048538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.555511 seconds.
-  path: Assets/Prefabs/CollectableGreen.prefab
-  artifactKey: Guid(988f89e167e502a44b34e64ced9f2d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CollectableGreen.prefab using Guid(988f89e167e502a44b34e64ced9f2d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac74edb9c1386a8525b58f4a36648e78') in 0.014222 seconds
-  Import took 0.020101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.701570 seconds.
-  path: Assets/Prefabs/Yellow.prefab
-  artifactKey: Guid(826d22f8c6598f342986a02494a6bddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Yellow.prefab using Guid(826d22f8c6598f342986a02494a6bddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fe5e7381c167e6ba45e5cf79b35e19') in 0.015493 seconds
-  Import took 0.020890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.278004 seconds.
-  path: Assets/Prefabs/CollectYellow.prefab
-  artifactKey: Guid(826d22f8c6598f342986a02494a6bddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CollectYellow.prefab using Guid(826d22f8c6598f342986a02494a6bddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700d8953c14b21e304d5625181f7a32b') in 0.029616 seconds
-  Import took 0.035319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.375837 seconds.
-  path: Assets/Prefabs/CollectGreen.prefab
-  artifactKey: Guid(988f89e167e502a44b34e64ced9f2d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CollectGreen.prefab using Guid(988f89e167e502a44b34e64ced9f2d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e022ac4c6536ad02fbe589cc6cbfb5') in 0.015843 seconds
-  Import took 0.021290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.707550 seconds.
-  path: Assets/Prefabs/CollectYellow.prefab
-  artifactKey: Guid(826d22f8c6598f342986a02494a6bddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CollectYellow.prefab using Guid(826d22f8c6598f342986a02494a6bddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f55edf2cca22d0b4a33f1d506641a2') in 0.037524 seconds
-  Import took 0.045187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.923807 seconds.
-  path: Assets/Prefabs/CollectablePurple 2.prefab
-  artifactKey: Guid(3e3f1363d215b2b4e8ab7ad07fd7db65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CollectablePurple 2.prefab using Guid(3e3f1363d215b2b4e8ab7ad07fd7db65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912d49e676bdab5ece5f215e920584cb') in 0.017010 seconds
-  Import took 0.023742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.255288 seconds.
-  path: Assets/Prefabs/CollectBlue.prefab
-  artifactKey: Guid(3e3f1363d215b2b4e8ab7ad07fd7db65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CollectBlue.prefab using Guid(3e3f1363d215b2b4e8ab7ad07fd7db65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473746ae42932d60ced73d35e2c631aa') in 0.016475 seconds
-  Import took 0.021818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.253440 seconds.
-  path: Assets/Prefabs/CollectPurple.prefab
-  artifactKey: Guid(b8fd27dfbf4cdd34689d3af633b47587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CollectPurple.prefab using Guid(b8fd27dfbf4cdd34689d3af633b47587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6118a4c9e49a31606a4d1cd463b16828') in 0.017866 seconds
-  Import took 0.024060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.892201 seconds.
-  path: Assets/Prefabs/CollectPurple 1.prefab
-  artifactKey: Guid(8fe9b264862f2dd4592c27db598b60b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CollectPurple 1.prefab using Guid(8fe9b264862f2dd4592c27db598b60b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62597667cb06c089392bc40d097dbbb1') in 0.017425 seconds
-  Import took 0.022395 seconds .
+System memory in use before: 117.8 MB.
+System memory in use after: 118.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2998.
+Total: 3.191900 ms (FindLiveObjects: 0.285400 ms CreateObjectMapping: 0.136000 ms MarkObjects: 2.746900 ms  DeleteObjects: 0.021700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001867 seconds.
+Registered in 0.001759 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.119 seconds
+- Completed reload, in  1.336 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2399 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.5 MB.
-System memory in use after: 137.7 MB.
+System memory in use before: 117.8 MB.
+System memory in use after: 118.0 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 3123.
-Total: 2.973200 ms (FindLiveObjects: 0.323800 ms CreateObjectMapping: 0.221600 ms MarkObjects: 2.395200 ms  DeleteObjects: 0.031100 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3001.
+Total: 2.462900 ms (FindLiveObjects: 0.265700 ms CreateObjectMapping: 0.116000 ms MarkObjects: 2.059000 ms  DeleteObjects: 0.020200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006539 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.247 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2399 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.8 MB.
+System memory in use after: 118.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3004.
+Total: 2.644400 ms (FindLiveObjects: 0.263100 ms CreateObjectMapping: 0.125700 ms MarkObjects: 2.229900 ms  DeleteObjects: 0.023700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014502 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.183 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2766 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.1 MB.
+System memory in use after: 131.3 MB.
+
+Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 3345.
+Total: 5.369100 ms (FindLiveObjects: 0.329400 ms CreateObjectMapping: 0.149100 ms MarkObjects: 2.788300 ms  DeleteObjects: 2.100100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 66.397765 seconds.
-  path: Assets/Prefabs/CollectOrange.prefab
-  artifactKey: Guid(8fe9b264862f2dd4592c27db598b60b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CollectOrange.prefab using Guid(8fe9b264862f2dd4592c27db598b60b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd263af59f821c834ba1f6d5892ce13') in 0.225117 seconds
-  Import took 0.230796 seconds .
+  Time since last request: 5773.626597 seconds.
+  path: Assets/Prefabs/RampCollider.prefab
+  artifactKey: Guid(debcc35b033635a4b9c2d0b8a9c3ae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RampCollider.prefab using Guid(debcc35b033635a4b9c2d0b8a9c3ae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669ed7daae2e10c1a8f0b262056fae62') in 0.106511 seconds
+  Import took 0.113825 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.325603 seconds.
-  path: Assets/Prefabs/CollectOrange.prefab
-  artifactKey: Guid(8fe9b264862f2dd4592c27db598b60b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CollectOrange.prefab using Guid(8fe9b264862f2dd4592c27db598b60b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62fed8e0ae76a639c284e1725d6c81d') in 0.015324 seconds
-  Import took 0.021219 seconds .
+  Time since last request: 0.002908 seconds.
+  path: Assets/Prefabs/RampCollider.prefab
+  artifactKey: Guid(debcc35b033635a4b9c2d0b8a9c3ae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RampCollider.prefab using Guid(debcc35b033635a4b9c2d0b8a9c3ae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669ed7daae2e10c1a8f0b262056fae62') in 0.006592 seconds
+  Import took 0.012814 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.225943 seconds.
-  path: Assets/Prefabs/CollectOrange.prefab
-  artifactKey: Guid(8fe9b264862f2dd4592c27db598b60b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/CollectOrange.prefab using Guid(8fe9b264862f2dd4592c27db598b60b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5657ac757de985cd7dd9a672ef7916') in 0.014814 seconds
-  Import took 0.020666 seconds .
+  Time since last request: 11.029784 seconds.
+  path: Assets/Prefabs/Ramp 1.prefab
+  artifactKey: Guid(1939f893e40432c45813d69972bb1fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ramp 1.prefab using Guid(1939f893e40432c45813d69972bb1fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9d35f82bc9b68f5ef076f261482939') in 0.312652 seconds
+  Import took 0.318940 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 66.119082 seconds.
-  path: Assets/Assets/TreeStump/TreeStump.mat
-  artifactKey: Guid(f59267b22413b8d43aee512308376858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/TreeStump/TreeStump.mat using Guid(f59267b22413b8d43aee512308376858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9849d8a94f4a20b46ff316dad16fb617') in 0.035103 seconds
-  Import took 0.041085 seconds .
+  Time since last request: 10.496385 seconds.
+  path: Assets/Prefabs/Old
+  artifactKey: Guid(f63a5aa8b06d32247b7f0140e9a4a095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Old using Guid(f63a5aa8b06d32247b7f0140e9a4a095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bfdeec34d21e7914c79e4a9d01fa02') in 0.005239 seconds
+  Import took 0.011310 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.489994 seconds.
-  path: Assets/Assets/TreeStump/TreeStump.mat
-  artifactKey: Guid(f59267b22413b8d43aee512308376858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/TreeStump/TreeStump.mat using Guid(f59267b22413b8d43aee512308376858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b216d5c0e4adf2eb2e0b5ff1df294bf') in 0.013818 seconds
-  Import took 0.019398 seconds .
+  Time since last request: 6.600687 seconds.
+  path: Assets/Prefabs/Ramp.prefab
+  artifactKey: Guid(1939f893e40432c45813d69972bb1fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ramp.prefab using Guid(1939f893e40432c45813d69972bb1fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11ebb5d4e24e7d25b0299d7bf90a62c') in 0.022060 seconds
+  Import took 0.028970 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001859 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.296 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2767 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.4 MB.
+System memory in use after: 136.6 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 3393.
+Total: 4.996900 ms (FindLiveObjects: 0.303900 ms CreateObjectMapping: 0.144400 ms MarkObjects: 2.669300 ms  DeleteObjects: 1.877500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 360.226491 seconds.
+  path: Assets/Prefabs/Ramp.prefab
+  artifactKey: Guid(1939f893e40432c45813d69972bb1fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ramp.prefab using Guid(1939f893e40432c45813d69972bb1fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b3575f4ff92b240762d81fe3025b14') in 0.225965 seconds
+  Import took 0.232410 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002208 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.247 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2767 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.5 MB.
+System memory in use after: 136.8 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 3432.
+Total: 5.405300 ms (FindLiveObjects: 0.344100 ms CreateObjectMapping: 0.205800 ms MarkObjects: 2.880000 ms  DeleteObjects: 1.973500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
