@@ -15,6 +15,6 @@ public class PlanetPosition : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(0,0, player.position.z);
+        transform.position = new Vector3(0, 4.86f, player.position.z);
     }
 }
