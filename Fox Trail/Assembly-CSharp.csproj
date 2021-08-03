@@ -48,6 +48,7 @@
      <Compile Include="Assets\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Components\BloomComponent.cs" />
+     <Compile Include="Assets\Scripts\[Unity Tutorial] First Person Controller Spherical Worlds\MoveEnvironmentForward.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Components\DitheringComponent.cs" />
      <Compile Include="Assets\Scripts\LevelComplete.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\PostProcessingComponent.cs" />
@@ -93,7 +94,7 @@
      <Compile Include="Assets\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
-     <Compile Include="Assets\Scripts\[Unity Tutorial] First Person Controller Spherical Worlds\MoveEnvironmentForward.cs" />
+     <Compile Include="Assets\Scripts\videoscript.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
