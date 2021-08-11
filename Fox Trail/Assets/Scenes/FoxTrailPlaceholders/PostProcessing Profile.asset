@@ -184,13 +184,13 @@ MonoBehaviour:
   m_AdvancedMode: 0
   lift:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.9364717, z: 0.7898571, w: 0}
+    m_Value: {x: 1, y: 0.95306545, z: 0.83483803, w: 0}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.96471286, z: 0.8305112, w: 0}
+    m_Value: {x: 1, y: 0.96323574, z: 0.87806594, w: 0}
   gain:
     m_OverrideState: 1
-    m_Value: {x: 0.6788988, y: 0.76290315, z: 1, w: 0}
+    m_Value: {x: 0.76006824, y: 0.821108, z: 1, w: 0}
 --- !u!114 &8335565380945626408
 MonoBehaviour:
   m_ObjectHideFlags: 3
