@@ -7,33 +7,25 @@ public class CoinPickup : MonoBehaviour
 {
     public AudioClip collectableAudio;
     AudioSource audioData;
-//     public TMP_Text scoreText;
-//     private int score;
     
-// // Start is called before the first frame update
+
  void Start()
  {
      audioData = GetComponent<AudioSource>();
 
-//         scoreText.text = "Score : ";
 }
 
     void OnTriggerEnter (Collider collisionInfo){
         if (collisionInfo.tag == "Flame"){
-            //soita keräys ääni
+            //play collecting sound
             audioData.clip = collectableAudio;
             audioData.Play();
             Debug.Log("collected");
 
+            //add value to score text
             FlameCollision.scoreValue += 10;
-            //coin collection here
-            // score = score + 1;
+            
             Destroy(collisionInfo.gameObject);
         }
     }
-//     // Update is called once per frame
-//     void Update()
-//     {
-//         scoreText.text = "Score : " + score;
-//     }
 }
